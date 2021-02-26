@@ -18,3 +18,5 @@ Express é um microframework para utilizar o nodejs, utilizado pra rotas, middle
 
 Pra rodar as migrations do bd: 
 <$ yarn typeorm migration:run>
+
+<$ yarn typeorm migration:create -n CreateSurveys>
